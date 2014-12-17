@@ -11,10 +11,10 @@
             options: [
                 {
                     id: 2345, name: 'Colour', type: 1, picks: [
-                        { id: 3478, label: 'Red', imageUrl: '', unitSurcharge: 0 },
-                        { id: 3479, label: 'Blue', imageUrl: '', unitSurcharge: 0 },
-                        { id: 3480, label: 'Green', imageUrl: '', unitSurcharge: 1 },
-                        { id: 3481, label: 'Gold', imageUrl: '', unitSurcharge: 4 }
+                        { id: 3478, label: 'Red', imageUrl: 'https://pbs.twimg.com/media/A3kzb-GCQAE4oKA.jpg', unitSurcharge: 0 },
+                        { id: 3479, label: 'Blue', imageUrl: 'http://www.sydneybowls.com.au/catalog/images/DSC05184.JPG', unitSurcharge: 0 },
+                        { id: 3480, label: 'Green', imageUrl: 'http://www.midocean.com.au/ProductImages/Products/KC1447_09.jpg', unitSurcharge: 1 },
+                        { id: 3481, label: 'Gold', imageUrl: 'http://ohsnapbacks.com/wp-content/uploads/2013/08/1st-class-classic-logo-gold-snapback-cap_2.jpg', unitSurcharge: 4 }
                     ]
                 },
                 {
