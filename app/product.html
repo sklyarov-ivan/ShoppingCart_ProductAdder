@@ -1,0 +1,39 @@
+﻿<div class="row">
+    
+    <div class="col-lg-12">
+        <div style="margin-bottom: 20px;"></div>
+        <b> Tasks</b>
+        <ol>
+            <li> Create a product-adder angular DIRECTIVE </li>
+            <li> DYNAMICALLY construct the grid based on the options in the product</li>
+            <li>
+                When add-to-cart is clicked, create an array of items to add to the cart. The model of the items to add to the cart must be:
+                <br /> {productId: 234, unitRrp: 90.95, lineTotal: 363.80, quantity: 4, options: [{optionId: 2356, pickId: 4322}, {optionId: 4567, pickId: 3324}]
+            </li>
+        </ol>
+        <hr />
+
+        <div style="margin-bottom: 50px;"></div>
+    </div>
+
+
+    <div class="col-lg-12">
+        <h1> {{product.name}}</h1>
+        <h3> {{product.rrp | currency }}</h3>        
+    </div>
+    
+    <div class="col-lg-6">
+        <hr />
+
+        <product-adder options="product.options"
+                       add-to-cart="addToCart"></product-adder>
+        
+    </div>
+    
+    <div class="col-lg-6">
+        <b> Cart </b>
+        <span> {{cart | json }}</span>
+    </div>
+        
+
+</div>
